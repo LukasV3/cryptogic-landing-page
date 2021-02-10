@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 4.5rem;
+  margin-bottom: 1rem;
+
+  &__links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+
+  &__item {
+    margin-left: 3rem;
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+
+  &__link--btn {
+    padding: 0.8rem 2.5rem;
+    border-radius: 3rem;
+    background-color: var(--color-primary);
+    color: #fff;
+  }
+}
