@@ -18,10 +18,10 @@ const Header = () => {
             Excepteur incididunt tempor tempor.
           </h3>
 
-          <div className="header__input">
+          <form className="header__input">
             <input placeholder="Enter email address" />
-            <button>Keep me Updated!</button>
-          </div>
+            <button type="button">Keep me Updated!</button>
+          </form>
 
           <button className="header__title--btn">
             Learn more <i className="fas fa-long-arrow-alt-down"></i>
