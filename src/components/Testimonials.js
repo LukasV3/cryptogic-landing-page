@@ -1,4 +1,7 @@
 import React from "react";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
+
 import "../styles/Testimonials.scss";
 
 const Testimonials = () => {
@@ -9,7 +12,7 @@ const Testimonials = () => {
         <h3 className="section__header">Lorem ipsum dolor sit amet.</h3>
       </div>
 
-      <div className="slider">
+      <Carousel>
         <div className="slide slide--1">
           <div className="testimonial">
             <h5 className="testimonial__header">Best financial decision ever!</h5>
@@ -46,10 +49,7 @@ const Testimonials = () => {
             </div>
           </div>
         </div>
-
-        <button className="slider__btn slider__btn--left">&larr;</button>
-        <button className="slider__btn slider__btn--right">&rarr;</button>
-      </div>
+      </Carousel>
     </section>
   );
 };

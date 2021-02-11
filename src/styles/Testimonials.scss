@@ -37,50 +37,10 @@
   }
 }
 
-.slider {
-  max-width: 100rem;
+.carousel .slide {
   height: 35rem;
-  margin: 0 auto;
-  position: relative;
-
-  /* IN THE END */
-  //   overflow: hidden;
-
-  &__btn {
-    position: absolute;
-    top: 50%;
-    z-index: 10;
-    border: none;
-    background: rgba(255, 255, 255, 0.7);
-    font-family: inherit;
-    color: #333;
-    border-radius: 50%;
-    height: 5rem;
-    width: 5rem;
-    font-size: 2.5rem;
-    cursor: pointer;
-
-    &--left {
-      left: 6%;
-      transform: translate(-50%, -50%);
-    }
-    &--right {
-      right: 6%;
-      transform: translate(50%, -50%);
-    }
-  }
-}
-
-.slide {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 35rem;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
-  /* THIS creates the animation! */
-  transition: transform 1s;
+  background: none;
 }
