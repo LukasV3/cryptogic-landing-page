@@ -18,6 +18,14 @@
 
   &__link {
     text-decoration: none;
+    // color: var(--color-tertiary);
+    color: rgb(14, 13, 70);
+    font-weight: 600;
+    padding: 0.5rem;
+
+    &:hover {
+      // border-bottom: 3px solid var(--color-primary);
+    }
   }
 
   &__link--btn {

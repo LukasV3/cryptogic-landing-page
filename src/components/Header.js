@@ -11,7 +11,7 @@ const Header = () => {
           <h1>
             Buy & Sell
             <br></br>
-            Digital Currency
+            Cryptocurrency
           </h1>
           <h3>
             Voluptate est in nulla Lorem ullamco mollit velit <br></br> fugiat dolor aute.
@@ -29,7 +29,7 @@ const Header = () => {
 
           <img
             className="header__img"
-            // src="https://images.unsplash.com/photo-1516245834210-c4c142787335?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1349&q=80"
+            src="https://images.pexels.com/photos/6478886/pexels-photo-6478886.png?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
             alt="bitcoin"
           ></img>
         </div>

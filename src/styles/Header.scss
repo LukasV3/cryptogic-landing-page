@@ -1,5 +1,5 @@
 .header {
-  padding: 0 6rem;
+  padding: 0 5rem;
   height: 100vh;
   min-height: 40rem;
   display: flex;
@@ -34,7 +34,8 @@
     max-width: 115rem;
     min-height: 30rem;
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 3fr 2.25fr;
+    column-gap: 1.5rem;
     grid-template-rows: min-content min-content min-content 1fr;
     // height: 100%;
     // align-content: center;
@@ -42,7 +43,7 @@
     align-items: start;
     justify-items: start;
     color: #fff;
-    margin: auto 5rem;
+    margin: auto 4.5rem;
 
     & h1 {
       font-size: 4.25rem;
@@ -95,12 +96,12 @@
   }
 
   &__img {
-    width: 80%;
-    height: 80%;
-    margin: auto 0 auto auto;
+    width: 100%;
+    height: 60%;
+    margin: auto 0 auto 0;
     grid-column: 2 / 3;
     grid-row: 1 / 5;
-    border: 1px solid black;
+    mix-blend-mode: lighten;
   }
 }
 

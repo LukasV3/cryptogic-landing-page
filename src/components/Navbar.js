@@ -7,20 +7,20 @@ const Navbar = () => {
       <p className="nav__logo">LOGO</p>
       <ul className="nav__links">
         <li className="nav__item">
-          <a className="nav__link" href="/">
-            Link
+          <a className="nav__link" href="#section-1">
+            Features
           </a>
         </li>
         <li className="nav__item">
           <a className="nav__link" href="/">
-            Link
+            Testimonials
           </a>
         </li>
-        <li className="nav__item">
+        {/* <li className="nav__item">
           <a className="nav__link" href="/">
-            Link
+            Te
           </a>
-        </li>
+        </li> */}
         <li className="nav__item">
           <a className="nav__link nav__link--btn" href="/">
             Sign Up
