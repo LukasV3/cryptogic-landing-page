@@ -19,7 +19,7 @@ const Features = () => {
         ></img>
         <div className="features__feature">
           <div className="features__icon">
-            <i class="fas fa-exchange-alt"></i>
+            <i className="fas fa-exchange-alt"></i>
           </div>
           <h5 className="features__header">Fast Exchange</h5>
           <p>
@@ -29,7 +29,7 @@ const Features = () => {
 
         <div className="features__feature">
           <div className="features__icon">
-            <i class="fas fa-shield-alt"></i>
+            <i className="fas fa-shield-alt"></i>
           </div>
           <h5 className="features__header">Highly Secure</h5>
           <p>
@@ -51,7 +51,7 @@ const Features = () => {
         />
         <div className="features__feature">
           <div className="features__icon">
-            <i class="fas fa-comments"></i>
+            <i className="fas fa-comments"></i>
           </div>
           <h5 className="features__header">24/7 Support</h5>
           <p>Quasi, fugit in cumque cupiditate reprehenderit debitis animi enim.</p>
