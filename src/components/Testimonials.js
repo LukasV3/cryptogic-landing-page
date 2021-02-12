@@ -14,7 +14,7 @@ const Testimonials = () => {
           onClick={onClickHandler}
           title={label}
         >
-          <i class={`fas fa-long-arrow-alt-${direction}`}></i>
+          <i className={`fas fa-long-arrow-alt-${direction}`}></i>
         </button>
       );
   };
@@ -29,13 +29,14 @@ const Testimonials = () => {
       <Carousel
         useKeyboardArrows={true}
         showStatus={false}
+        showThumbs={false}
         infiniteLoop={true}
         renderArrowPrev={renderArrowBtn("left")}
         renderArrowNext={renderArrowBtn("right")}
       >
         <div className="slide slide--1">
           <div className="testimonial">
-            <i class="fas fa-quote-left"></i>
+            <i className="fas fa-quote-left"></i>
             <h5 className="testimonial__header">Best financial decision ever!</h5>
             <div className="testimonial__text">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quas
@@ -53,7 +54,7 @@ const Testimonials = () => {
 
         <div className="slide slide--2">
           <div className="testimonial">
-            <i class="fas fa-quote-left"></i>
+            <i className="fas fa-quote-left"></i>
 
             <h5 className="testimonial__header">The last step to becoming.</h5>
             <div className="testimonial__text">
