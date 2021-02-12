@@ -5,6 +5,8 @@ import "../styles/css-variables.scss";
 import Header from "./Header";
 import Features from "./Features";
 import Testimonials from "./Testimonials";
+import SignUp from "./SignUp";
+import Footer from "./Footer";
 
 const App = () => {
   return (
@@ -12,6 +14,8 @@ const App = () => {
       <Header />
       <Features />
       <Testimonials />
+      <SignUp />
+      <Footer />
     </>
   );
 };

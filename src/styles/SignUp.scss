@@ -1,0 +1,44 @@
+.section--sign-up {
+  border-bottom: 1px solid #444;
+  text-align: center;
+  padding: 4rem 5rem;
+
+  & .section__title {
+    // margin-bottom: 6rem;
+    background: rgb(27, 137, 148);
+    background: linear-gradient(
+      20deg,
+      rgba(27, 137, 148, 1) 0%,
+      rgba(27, 134, 147, 1) 4%,
+      rgba(27, 126, 146, 1) 7%,
+      rgba(27, 110, 143, 1) 9%,
+      rgba(27, 102, 141, 1) 10%,
+      rgba(28, 75, 136, 1) 20%,
+      rgba(28, 68, 135, 1) 31%,
+      rgba(29, 28, 128, 1) 62%
+    );
+    border-radius: 1rem;
+    max-width: 100%;
+    padding: 5rem;
+    margin: 0;
+  }
+
+  & .section__header {
+    color: white;
+    opacity: 1;
+    text-align: center;
+    margin: 0 auto 2rem;
+    max-width: 40rem;
+    line-height: 3.5rem;
+  }
+
+  & .btn {
+    font-size: 1.5rem;
+    border: none;
+    padding: 1rem 5rem;
+    border-radius: 3rem;
+    background-color: var(--color-primary);
+    color: #fff;
+    cursor: pointer;
+  }
+}
