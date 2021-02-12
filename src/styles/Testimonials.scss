@@ -1,17 +1,27 @@
 .testimonial {
-  width: 65%;
+  width: 60%;
   position: relative;
+  text-align: left;
+
+  & i {
+    position: absolute;
+    top: -2rem;
+    left: -4rem;
+    font-size: 3rem;
+  }
 
   &__header {
-    font-size: 2.25rem;
+    font-size: 2.2rem;
     font-weight: 500;
     margin-bottom: 1.5rem;
   }
 
   &__text {
-    font-size: 1.7rem;
+    font-size: 1.25rem;
     margin-bottom: 3.5rem;
     color: #666;
+    font-weight: 300;
+    line-height: 2rem;
   }
 
   &__author {
@@ -37,10 +47,54 @@
   }
 }
 
+.carousel__btn {
+  position: absolute;
+  color: black;
+  z-index: 2;
+  top: calc(50% - 25px);
+  // width: 50;
+  // height: 50;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  padding: 1rem 1.25rem;
+  border-radius: 50%;
+
+  &--right {
+    right: 2rem;
+  }
+
+  &--left {
+    left: 2rem;
+  }
+}
+
 .carousel .slide {
   height: 35rem;
   display: flex;
   align-items: center;
   justify-content: center;
   background: none;
+}
+
+@media screen and (max-width: 750px) {
+  .testimonial {
+    width: 50%;
+  }
+
+  .carousel__btn {
+    &--left {
+      left: 0rem;
+    }
+
+    &--right {
+      right: 0rem;
+    }
+  }
+
+  .carousel .slide {
+    height: 45rem;
+    width: 100vw;
+  }
 }

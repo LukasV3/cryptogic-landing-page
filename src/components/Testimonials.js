@@ -1,10 +1,24 @@
 import React from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 
 import "../styles/Testimonials.scss";
 
 const Testimonials = () => {
+  const renderArrowBtn = (direction) => {
+    return (onClickHandler, hasPrev, label) =>
+      hasPrev && (
+        <button
+          className={`carousel__btn carousel__btn--${direction}`}
+          type="button"
+          onClick={onClickHandler}
+          title={label}
+        >
+          <i class={`fas fa-long-arrow-alt-${direction}`}></i>
+        </button>
+      );
+  };
+
   return (
     <section className="section" id="section--2">
       <div className="section__title">
@@ -12,16 +26,22 @@ const Testimonials = () => {
         <h3 className="section__header">Lorem ipsum dolor sit amet.</h3>
       </div>
 
-      <Carousel>
+      <Carousel
+        useKeyboardArrows={true}
+        showStatus={false}
+        infiniteLoop={true}
+        renderArrowPrev={renderArrowBtn("left")}
+        renderArrowNext={renderArrowBtn("right")}
+      >
         <div className="slide slide--1">
           <div className="testimonial">
+            <i class="fas fa-quote-left"></i>
             <h5 className="testimonial__header">Best financial decision ever!</h5>
             <div className="testimonial__text">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quas
               quisquam non? Quas voluptate nulla minima deleniti optio ullam nesciunt,
               numquam corporis et asperiores laboriosam sunt, praesentium suscipit
-              blanditiis. Necessitatibus id alias reiciendis, perferendis facere pariatur
-              dolore veniam autem esse non voluptatem saepe provident nihil molestiae.
+              blanditiis.
             </div>
             <div className="testimonial__author">
               <img src="img/user-1.jpg" alt="" className="testimonial__photo" />
@@ -33,14 +53,13 @@ const Testimonials = () => {
 
         <div className="slide slide--2">
           <div className="testimonial">
-            <h5 className="testimonial__header">
-              The last step to becoming a complete minimalist
-            </h5>
+            <i class="fas fa-quote-left"></i>
+
+            <h5 className="testimonial__header">The last step to becoming.</h5>
             <div className="testimonial__text">
               Quisquam itaque deserunt ullam, quia ea repellendus provident, ducimus neque
               ipsam modi voluptatibus doloremque, corrupti laborum. Incidunt numquam
-              perferendis veritatis neque repellendus. Lorem, ipsum dolor sit amet
-              consectetur adipisicing elit. Illo deserunt exercitationem deleniti.
+              perferendis veritatis neque repellendus. Lorem, ipsum dolor sit amet.
             </div>
             <div className="testimonial__author">
               <img src="img/user-2.jpg" alt="" className="testimonial__photo" />
