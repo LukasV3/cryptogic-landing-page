@@ -4,7 +4,12 @@
   align-items: center;
   width: 100%;
   min-height: 4.5rem;
-  margin-bottom: 1rem;
+  margin: 0.75rem 0;
+
+  &__logo {
+    height: 4rem;
+    mix-blend-mode: darken;
+  }
 
   &__links {
     list-style: none;

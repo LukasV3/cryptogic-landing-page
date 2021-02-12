@@ -1,0 +1,30 @@
+.footer {
+  padding: 5rem 3rem;
+  background-color: var(--color-secondary);
+
+  &__nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto 4rem;
+    max-width: 50rem;
+  }
+
+  &__item {
+    font-size: 0.85rem;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__logo {
+    height: 5rem;
+    display: block;
+    margin: 0 auto;
+    mix-blend-mode: darken;
+  }
+}
