@@ -27,24 +27,27 @@
 
   &__author {
     margin-left: 3rem;
-    font-style: normal;
-
     display: grid;
-    grid-template-columns: 6.5rem 1fr;
+    grid-template-columns: 5rem 1fr;
     column-gap: 2rem;
   }
 
   &__photo {
     grid-row: 1 / span 2;
-    width: 6.5rem;
     border-radius: 50%;
   }
 
   &__name {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 500;
     align-self: end;
     margin: 0;
+  }
+
+  &__location {
+    font-size: 1rem;
+    color: #666;
+    font-weight: 300;
   }
 }
 
