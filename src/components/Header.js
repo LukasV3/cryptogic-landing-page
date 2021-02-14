@@ -11,7 +11,7 @@ const Header = () => {
           <h1>
             Buy & Sell
             <br></br>
-            Cryptocurrency
+            Crypto<span>currency</span>
           </h1>
           <h3>
             Voluptate est in nulla Lorem ullamco mollit velit <br></br> fugiat dolor aute.

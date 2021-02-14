@@ -80,6 +80,11 @@
   background: none;
 }
 
+.carousel-root {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 750px) {
   .testimonial {
     width: 50%;

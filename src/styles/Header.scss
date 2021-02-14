@@ -112,14 +112,43 @@
   }
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 1050px) {
   .header {
     &__title {
       display: flex;
       flex-direction: column;
+      margin: 0;
+      flex: none;
+      width: 80%;
     }
 
     &__img {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header {
+    padding: 0;
+
+    &__container {
+      border-radius: 0;
+    }
+
+    &__title {
+      & h1 {
+        font-size: 3.75rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header {
+    &__title h1 span {
       display: none;
     }
   }

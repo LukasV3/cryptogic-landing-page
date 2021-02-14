@@ -4,7 +4,6 @@
   padding: 4rem 5rem;
 
   & .section__title {
-    // margin-bottom: 6rem;
     background: rgb(27, 137, 148);
     background: linear-gradient(
       20deg,
@@ -40,5 +39,27 @@
     background-color: var(--color-primary);
     color: #fff;
     cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .section--sign-up {
+    padding: 0;
+
+    & .section__title {
+      padding: 3rem;
+      border-radius: 0;
+    }
+
+    & .section__header {
+      margin: 0 auto 2rem;
+      font-size: 1.75rem;
+      line-height: 2.25rem;
+    }
+
+    & .btn {
+      font-size: 1.1rem;
+      padding: 0.75rem 2.25rem;
+    }
   }
 }

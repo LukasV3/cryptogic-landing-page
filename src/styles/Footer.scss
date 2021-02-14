@@ -28,3 +28,16 @@
     mix-blend-mode: darken;
   }
 }
+
+@media screen and (max-width: 575px) {
+  .footer {
+    padding: 2rem 0;
+
+    &__nav {
+      flex-direction: column;
+      text-align: center;
+      gap: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+}

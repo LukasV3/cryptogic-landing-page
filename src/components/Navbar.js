@@ -5,6 +5,11 @@ const Navbar = () => {
   return (
     <nav className="nav">
       <img className="nav__logo" src="../img/logo.png" alt="Cryptogic logo" />
+      <img
+        className="nav__logo nav__logo--mobile"
+        src="../img/icon.png"
+        alt="Cryptogic icon"
+      />
       <ul className="nav__links">
         <li className="nav__item">
           <a className="nav__link" href="#section-1">
