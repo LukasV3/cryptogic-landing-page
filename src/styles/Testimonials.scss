@@ -55,7 +55,7 @@
   position: absolute;
   color: black;
   z-index: 2;
-  top: calc(50% - 25px);
+  top: 40%;
   font-size: 1.5rem;
   cursor: pointer;
   border: none;
@@ -83,14 +83,18 @@
 .carousel-root {
   max-width: 100rem;
   margin: 0 auto;
+  margin-top: -2rem;
 }
 
 @media screen and (max-width: 750px) {
   .testimonial {
-    width: 50%;
+    width: 60%;
   }
 
   .carousel__btn {
+    font-size: 1rem;
+    padding: 0.75rem 1rem;
+
     &--left {
       left: 0rem;
     }
@@ -103,5 +107,39 @@
   .carousel .slide {
     height: 45rem;
     width: 100vw;
+  }
+
+  .carousel-root {
+    margin-top: -5rem;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .testimonial {
+    margin: 0;
+    width: 65%;
+
+    &__header {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    &__text {
+      margin-bottom: 2rem;
+      font-size: 1.1rem;
+      line-height: 1.5rem;
+    }
+
+    &__author {
+      margin-left: 0;
+      column-gap: 0.75rem;
+    }
+
+    & i {
+      display: none;
+    }
+  }
+  .carousel__btn {
+    display: none;
   }
 }
