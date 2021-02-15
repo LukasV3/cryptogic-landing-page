@@ -29,8 +29,8 @@ const Header = () => {
 
           <img
             className="header__img"
-            src="https://images.pexels.com/photos/6478886/pexels-photo-6478886.png?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
-            alt="bitcoin"
+            src="../img/header-graph.jpg"
+            alt="Ethereum graph by Bram van Oosterhout from Pexels"
           ></img>
         </div>
       </div>

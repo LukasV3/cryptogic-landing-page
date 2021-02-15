@@ -11,10 +11,8 @@ const Features = () => {
 
       <div className="features">
         <img
-          // src="https://images.pexels.com/photos/6771607/pexels-photo-6771607.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-          // src="https://cdn.pixabay.com/photo/2017/12/11/11/54/bitcoin-3012035_960_720.png"
-          src="https://cdn.pixabay.com/photo/2017/10/24/09/01/bitcoin-2883885_960_720.jpg"
-          alt="features img"
+          src="../img/bitcoin-miner-1.jpg"
+          alt="Bitcoin miner by Peggy und Marco Lachmann-Anke from Pixabay"
           className="features__img"
         ></img>
         <div className="features__feature">
@@ -37,16 +35,14 @@ const Features = () => {
           </p>
         </div>
         <img
-          // src="https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-          src="https://cdn.pixabay.com/photo/2017/09/04/14/07/bitcoin-2714191_960_720.jpg"
-          alt="Plant"
+          src="../img/bitcoin-miner-2.jpg"
+          alt="Bitcoin miner by Peggy und Marco Lachmann-Anke from Pixabay"
           className="features__img"
         />
 
         <img
-          // src="https://images.pexels.com/photos/5833780/pexels-photo-5833780.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-          src="https://cdn.pixabay.com/photo/2020/03/20/13/10/white-males-4950613_960_720.jpg"
-          alt="/"
+          src="../img/bitcoin-miner-3.jpg"
+          alt="Bitcoin miner by Peggy und Marco Lachmann-Anke from Pixabay"
           className="features__img"
         />
         <div className="features__feature">

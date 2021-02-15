@@ -36,8 +36,11 @@
     &__nav {
       flex-direction: column;
       text-align: center;
-      gap: 0.5rem;
       margin-bottom: 1.5rem;
+    }
+
+    &__item {
+      margin-bottom: 0.5rem;
     }
   }
 }

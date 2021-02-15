@@ -45,7 +45,7 @@ const Testimonials = () => {
               blanditiis.
             </div>
             <div className="testimonial__author">
-              <img src="../img/user-1.jpg" alt="" className="testimonial__photo" />
+              <img src="../img/user-1.jpg" alt="User" className="testimonial__photo" />
               <h6 className="testimonial__name">Justin Peake</h6>
               <p className="testimonial__location">London, UK</p>
             </div>
@@ -56,14 +56,14 @@ const Testimonials = () => {
           <div className="testimonial">
             <i className="fas fa-quote-left"></i>
 
-            <h5 className="testimonial__header">The last step to becoming.</h5>
+            <h5 className="testimonial__header">Best financial decision ever!</h5>
             <div className="testimonial__text">
               Quisquam itaque deserunt ullam, quia ea repellendus provident, ducimus neque
               ipsam modi voluptatibus doloremque, corrupti laborum. Incidunt numquam
               perferendis veritatis neque repellendus. Lorem, ipsum dolor sit amet.
             </div>
             <div className="testimonial__author">
-              <img src="../img/user-2.jpg" alt="" className="testimonial__photo" />
+              <img src="../img/user-2.jpg" alt="User" className="testimonial__photo" />
               <h6 className="testimonial__name">Andrea Sharp</h6>
               <p className="testimonial__location">San Francisco, USA</p>
             </div>
@@ -74,14 +74,14 @@ const Testimonials = () => {
           <div className="testimonial">
             <i className="fas fa-quote-left"></i>
 
-            <h5 className="testimonial__header">The last step to becoming.</h5>
+            <h5 className="testimonial__header">Best financial decision ever!</h5>
             <div className="testimonial__text">
               Quisquam itaque deserunt ullam, quia ea repellendus provident, ducimus neque
               ipsam modi voluptatibus doloremque, corrupti laborum. Incidunt numquam
               perferendis veritatis neque repellendus. Lorem, ipsum dolor sit amet.
             </div>
             <div className="testimonial__author">
-              <img src="../img/user-3.jpg" alt="" className="testimonial__photo" />
+              <img src="../img/user-3.jpg" alt="User" className="testimonial__photo" />
               <h6 className="testimonial__name">Mateo Alvarez</h6>
               <p className="testimonial__location">Barcelona, Spain</p>
             </div>
