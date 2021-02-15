@@ -95,3 +95,11 @@
     }
   }
 }
+
+@media screen and (max-width: 310px) {
+  .nav {
+    &__link--btn {
+      display: none;
+    }
+  }
+}

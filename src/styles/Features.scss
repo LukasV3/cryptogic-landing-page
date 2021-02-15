@@ -28,10 +28,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 4rem;
-  margin: 0 2rem;
+  margin: 0 auto;
+  max-width: 70rem;
 
   &__img {
     justify-self: center;
+    align-self: center;
     width: 60%;
     max-height: 20rem;
     mix-blend-mode: darken;
@@ -46,7 +48,7 @@
     flex-direction: column;
     gap: 1rem;
     background-color: white;
-    padding: 2rem 3.5rem;
+    padding: 2.5rem 3.5rem;
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
     border-radius: 10px;
   }
@@ -96,5 +98,11 @@
     &__feature {
       padding: 1.5rem 2rem;
     }
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .section {
+    padding: 8rem 1rem;
   }
 }
