@@ -4,18 +4,8 @@
   padding: 4rem 5rem;
 
   & .section__title {
-    background: rgb(27, 137, 148);
-    background: linear-gradient(
-      20deg,
-      rgba(27, 137, 148, 1) 0%,
-      rgba(27, 134, 147, 1) 4%,
-      rgba(27, 126, 146, 1) 7%,
-      rgba(27, 110, 143, 1) 9%,
-      rgba(27, 102, 141, 1) 10%,
-      rgba(28, 75, 136, 1) 20%,
-      rgba(28, 68, 135, 1) 31%,
-      rgba(29, 28, 128, 1) 62%
-    );
+    background: var(--gradient-color-background);
+    background: var(--gradient-primary);
     border-radius: 1rem;
     max-width: 100%;
     padding: 5rem;
@@ -23,7 +13,7 @@
   }
 
   & .section__header {
-    color: white;
+    color: #fff;
     opacity: 1;
     text-align: center;
     margin: 0 auto 2rem;

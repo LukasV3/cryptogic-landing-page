@@ -53,15 +53,26 @@
 
 .carousel__btn {
   position: absolute;
-  color: black;
+  color: #000;
   z-index: 2;
   top: 40%;
   font-size: 1.5rem;
   cursor: pointer;
   border: none;
-  background-color: white;
+  background-color: #fff;
   padding: 1rem 1.25rem;
   border-radius: 50%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+
+  &:hover {
+    box-shadow: 0px 15px 25px -5px rgba(0, 0, 0, 0.1);
+    transform: scale(1.03);
+  }
+  &:active {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(0.98);
+  }
 
   &--right {
     right: 2rem;

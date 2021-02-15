@@ -25,20 +25,11 @@
     margin-left: 1rem;
   }
 
-  &__item {
-    // margin-left: 3rem;
-  }
-
   &__link {
     text-decoration: none;
-    // color: var(--color-tertiary);
-    color: rgb(14, 13, 70);
+    color: var(--color-secondary-darker);
     font-weight: 600;
     padding: 0.5rem;
-
-    &:hover {
-      // border-bottom: 3px solid var(--color-primary);
-    }
   }
 
   &__link--btn {
