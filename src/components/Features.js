@@ -3,7 +3,7 @@ import "../styles/Features.scss";
 
 const Features = () => {
   return (
-    <section className="section" id="section-1">
+    <section className="section" id="section--1">
       <div className="section__title">
         <h2 className="section__description">Features</h2>
         <h3 className="section__header">Lorem ipsum dolor sit amet.</h3>

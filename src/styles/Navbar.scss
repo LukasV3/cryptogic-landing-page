@@ -4,7 +4,7 @@
   align-items: center;
   width: 100%;
   min-height: 4.5rem;
-  margin: 0.75rem 0 0.5rem 0;
+  padding: 0.75rem 0 0.5rem 0;
 
   &__logo {
     margin-bottom: 0.7rem;
@@ -38,6 +38,14 @@
     background-color: var(--color-primary);
     color: #fff;
   }
+}
+
+.sticky {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.975);
+  padding: 0.75rem 5rem 0.5rem 5rem;
+  height: 4rem;
+  z-index: 10;
 }
 
 @media screen and (max-width: 700px) {

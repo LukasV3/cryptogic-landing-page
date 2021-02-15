@@ -1,8 +1,35 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../styles/Header.scss";
 import Navbar from "./Navbar";
 
 const Header = () => {
+  useEffect(() => {
+    const allSections = document.querySelectorAll(".section");
+
+    const revealSection = function (entries, observer) {
+      const [entry] = entries;
+
+      if (!entry.isIntersecting) return;
+
+      entry.target.classList.remove("section--hidden");
+      observer.unobserve(entry.target);
+    };
+
+    const sectionObserver = new IntersectionObserver(revealSection, {
+      root: null,
+      threshold: 0.15,
+    });
+
+    allSections.forEach(function (section) {
+      sectionObserver.observe(section);
+      section.classList.add("section--hidden");
+    });
+  });
+
+  const scrollIntoView = () => {
+    document.querySelector("#section--1").scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <header className="header">
       <Navbar />
@@ -23,7 +50,7 @@ const Header = () => {
             <button type="button">Keep me Updated!</button>
           </form>
 
-          <button className="header__title--btn">
+          <button onClick={scrollIntoView} className="header__title--btn">
             Learn more <i className="fas fa-long-arrow-alt-down"></i>
           </button>
 
