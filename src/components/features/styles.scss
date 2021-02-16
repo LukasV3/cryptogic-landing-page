@@ -1,33 +1,4 @@
-.section {
-  padding: 8rem 5rem;
-  border-top: 1px solid #ddd;
-  background-color: var(--color-tertiary);
-  transition: opacity 1s;
-
-  &--hidden {
-    opacity: 0;
-  }
-
-  &__title {
-    max-width: 70rem;
-    margin: 0 auto 6rem auto;
-  }
-
-  &__description {
-    font-size: 1.5rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: var(--color-primary);
-    margin-bottom: 1rem;
-  }
-
-  &__header {
-    font-size: 2.75rem;
-    line-height: 1;
-    font-weight: 600;
-    opacity: 0.75;
-  }
-}
+@import "../../styles/global/variables";
 
 .features {
   display: grid;
@@ -60,7 +31,7 @@
     font-size: 1.5rem;
     padding: 1.25rem;
     color: #fff;
-    background-color: var(--color-primary);
+    background-color: $color-primary;
     opacity: 0.75;
     border-radius: 50%;
     margin-bottom: 1.25rem;
@@ -93,10 +64,6 @@
       display: none;
     }
   }
-
-  .section {
-    padding: 8rem 2.5rem;
-  }
 }
 
 @media screen and (max-width: 450px) {
@@ -104,11 +71,5 @@
     &__feature {
       padding: 1.5rem 2rem;
     }
-  }
-}
-
-@media screen and (max-width: 280px) {
-  .section {
-    padding: 8rem 1rem;
   }
 }

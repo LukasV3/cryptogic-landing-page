@@ -1,11 +1,13 @@
+@import "../../styles/global/variables";
+
 .section--sign-up {
   border-bottom: 1px solid #ddd;
   text-align: center;
   padding: 4rem 5rem;
 
   & .section__title {
-    background: var(--gradient-primary-background);
-    background: var(--gradient-primary);
+    background: $gradient-primary-background;
+    background: $gradient-primary;
     border-radius: 1rem;
     max-width: 100%;
     padding: 5rem;
@@ -26,7 +28,7 @@
     border: none;
     padding: 1rem 5rem;
     border-radius: 3rem;
-    background-color: var(--color-primary);
+    background-color: $color-primary;
     color: #fff;
     cursor: pointer;
   }

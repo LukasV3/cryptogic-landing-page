@@ -1,6 +1,8 @@
+@import "../../styles/global/variables";
+
 .footer {
   padding: 5rem 3rem;
-  background-color: var(--color-tertiary);
+  background-color: $color-tertiary;
 
   &__nav {
     list-style: none;

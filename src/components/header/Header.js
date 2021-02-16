@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import "../styles/Header.scss";
-import Navbar from "./Navbar";
+import "./styles.scss";
+import Navbar from "./navbar/Navbar";
 
 const Header = () => {
   useEffect(() => {

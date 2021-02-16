@@ -1,3 +1,5 @@
+@import "./variables.scss";
+
 *,
 *:before,
 *:after {
@@ -9,5 +11,5 @@
 body {
   font-family: "Poppins", sans-serif;
   min-width: 200px;
-  background-color: var(--color-tertiary);
+  background-color: $color-tertiary;
 }
