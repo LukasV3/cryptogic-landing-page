@@ -58,8 +58,11 @@
       font-weight: 600;
       display: flex;
       align-items: center;
-      gap: 0.5rem;
       margin-top: 6rem;
+
+      & i {
+        margin-left: 0.5rem;
+      }
     }
   }
 
