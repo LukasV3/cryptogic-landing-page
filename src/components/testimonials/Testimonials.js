@@ -31,6 +31,7 @@ const Testimonials = () => {
         showStatus={false}
         showThumbs={false}
         infiniteLoop={true}
+        autoPlay={true}
         renderArrowPrev={renderArrowBtn("left")}
         renderArrowNext={renderArrowBtn("right")}
       >
